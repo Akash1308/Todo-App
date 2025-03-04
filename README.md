@@ -14,13 +14,12 @@ A simple Todo application built with **Spring Boot** that allows users to manage
 ## 🚀 Features
 - Add new tasks
 - View all tasks
-- Update tasks
 - Delete tasks
 - Mark tasks as completed
 
 ## 📦 Setup & Installation
 ### Prerequisites:
-- Java 17 or later
+- Java 21 or later
 - Maven
 - PostgreSQL (running and configured)
 
@@ -64,19 +63,11 @@ A simple Todo application built with **Spring Boot** that allows users to manage
 |--------|----------|-------------|
 | GET | `/tasks` | Get all tasks |
 | POST | `/tasks` | Add a new task |
-| PUT | `/tasks/{id}` | Update a task |
 | DELETE | `/tasks/{id}` | Delete a task |
 
-## 📜 License
-This project is licensed under the **MIT License**.
 
 ---
 ### 🎯 Contributing
 Contributions are welcome! Feel free to fork this repo and submit a pull request. 😊
 
----
-### 📧 Contact
-For any questions or issues, feel free to reach out:
-📩 Email: your-email@example.com
-🐙 GitHub: [yourusername](https://github.com/yourusername)
 
